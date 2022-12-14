@@ -35,6 +35,9 @@ app.use('/', clienteRouter);
 var funcionarioRouter = require('./routes/funcionarioRouter')
 app.use('/', funcionarioRouter);
 
+var reservaRouter = require('./routes/reservaRouter')
+app.use('/', reservaRouter);
+
 var promocaoRouter = require('./routes/promocaoRouter')
 app.use('/', promocaoRouter);
 
